@@ -1,2 +1,2 @@
-# JavaCourses
+# JavaCourse
 Java Homeworks
