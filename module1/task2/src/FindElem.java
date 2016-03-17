@@ -1,16 +1,11 @@
 /**
- * Created by Анастасия on 14.03.2016.
+ * Created by user on 17.03.16.
  */
-public class Main {
-
-    public static void main(String[] args) {
-        task2(0.1);
-    }
-
-    public static void task2 (double eps){
+public class FindElem {
+    public static double findAndPrintMinElem (double eps){
         if (eps <= 0){
             System.out.println("a_n is always greater than zero");
-            return;
+            return 0;
         }
         int i = 1;
         double a = nextElement(i);
@@ -20,11 +15,12 @@ public class Main {
             a = nextElement(i);
         }
         System.out.println("First appropriate element: " + a + " index i = " + (i - 1));
+        return a;
     }
 
     public static double nextElement (int n){
         return 1.0 / Math.pow(n + 1, 2);
     }
 
-}
 
+}

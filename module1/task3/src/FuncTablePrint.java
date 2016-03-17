@@ -1,14 +1,8 @@
 /**
- * Created by Анастасия on 14.03.2016.
+ * Created by user on 17.03.16.
  */
-public class Main {
-    public static void main(String[] args) {
-
-        task3(Math.PI/4,3,0.1);
-
-    }
-
-    public static void task3 (double a, double b, double h){
+public class FuncTablePrint {
+    public static void tablePrint (double a, double b, double h){
         System.out.printf("%8s \t%8s \n","x", "F(x)");
         for (double x = a; x <= b; x += h)
             System.out.printf("%8.4f \t%8.4f \n", x, F(x));

@@ -1,13 +1,8 @@
 /**
- * Created by Анастасия on 14.03.2016.
+ * Created by user on 17.03.16.
  */
-public class Main {
-    public static void main(String[] args) {
-
-        task5(9);
-    }
-
-    public static void task5 (int size){
+public class Matrix {
+    public static void print (int size){
         int[][] matrix = new int[size][size];
         for (int i = 0; i < size; i++) {
             for (int j = 0; j < size; j++) {

@@ -1,16 +1,8 @@
 /**
- * Created by Анастасия on 14.03.2016.
+ * Created by user on 17.03.16.
  */
-public class Main {
-    public static void main(String[] args) {
-
-        double[] doubleArray = {1, 2, 3, 5, 4, 5};
-        double max = task4(doubleArray);
-        System.out.println(max);
-
-    }
-
-    public static double task4 (double[] array){
+public class MaxSum {
+    public static double calcMaxSum (double[] array){
         if (array.length % 2 != 0) {
             System.out.println("Odd length of array");
             return 0;
@@ -22,6 +14,4 @@ public class Main {
         }
         return max;
     }
-
-
 }
